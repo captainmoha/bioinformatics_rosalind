@@ -3,7 +3,6 @@
 # Return: Four integers (separated by spaces) counting the respective
 # number of times that the symbols 'A', 'C', 'G', and 'T' occur in s.
 
-s = 'AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC'
 bases = {'A': 0, 'C': 0, 'G': 0, 'T': 0}
 
 
@@ -18,4 +17,5 @@ dna_file = str(open('dna.txt', 'r').read().strip())
 
 print DNA_Nucleotides(dna_file)
 
+# s = 'AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC'
 # print DNA_Nucleotides(s)
